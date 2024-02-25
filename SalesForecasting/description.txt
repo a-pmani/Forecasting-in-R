@@ -1,0 +1,7 @@
+SALES FORECASTING
+Identify the best forecasting model to predict monthly sales of a grocery chain
+
+Nature of the data: 
+Plotting the time series data created using the historical sales data helps us visually notice trends and seasonality. 
+  From our plot here, we see that the sales follows an annual seasonal pattern. 
+    There is a spike in sales in December every year. As for the trend, we are seeing a linear upward trend over the time period in the historical data.
