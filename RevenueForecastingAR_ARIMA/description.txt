@@ -1,0 +1,7 @@
+FORECASTING WALMART REVENUE WITH AR & ARIMA MODELS
+
+Nature of data:
+By fitting the Walmart’s quarterly time series data into the AR (1) in R and examining the summary, we can infer if the time series is predictable
+The AR (1) model we get is Yt= 110533.61 +0.87*Yt-1, where 0.87 is the b1 which is the coefficient of regression.
+If b1 is very close to 1 or equal to 1, then the model becomes a naïve forecast model. This means that the changes in the historical data cannot always be explained clearly by taking into consideration trend or seasonality. Hence, we can say that the time series is not predictable, or it is a ‘random walk’ based on the random walk hypothesis predominantly referred to in the finance domain to explain the behavior of stock price changes.
+In our case, 0.87 though is skewed towards 1, it is not exactly very close to 1. Hence, we can say that the Walmart quarterly revenue time series data is predictable.
